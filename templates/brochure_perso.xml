@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+  <grid dx="1" dy="1">
+    <wrapper>
+      <constraint gridx="0" gridy="0" />
+      <component class="javax.swing.JScrollPane" />
+      <content>
+        <grid dx="1" dy="1">
+          <wrapper>
+            <constraint gridx="0" gridy="0" anchor="18" />
+            <content>
+              <grid dx="3" dy="5">
+                <wrapper>
+                  <constraint gridx="0" gridy="0" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JLabel">
+                    <param name="Text" class="java.lang.String">Titre : </param>
+                  </component>
+                </wrapper>
+                <wrapper>
+                  <constraint gridx="0" gridy="1" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JLabel">
+                    <param name="Text" class="java.lang.String">Editeur responsable : </param>
+                  </component>
+                </wrapper>
+                <wrapper tag="contacts_liens">
+                  <constraint gridx="0" gridy="2" gridwidth="2" weighty="0.0" anchor="18" fill="2" />
+                  <content>
+                    <grid dx="4" dy="2">
+                      <wrapper tag="contact_lien">
+                        <constraint gridx="0" gridy="0" gridwidth="4" weightx="0.0" weighty="0.0" anchor="18" fill="2" />
+                        <component class="javax.swing.JTabbedPane" />
+                        <content>
+                          <tab index="0" title="1" mnemonic="0">
+                            <grid dx="1" dy="1">
+                              <wrapper tag="contact">
+                                <constraint gridx="0" gridy="0" weighty="0.0" anchor="18" fill="2" />
+                                <component class="be.immedia.ui.player.Link" />
+                                <border type="BevelBorder">1</border>
+                              </wrapper>
+                            </grid>
+                          </tab>
+                        </content>
+                      </wrapper>
+                      <wrapper>
+                        <constraint gridx="0" gridy="1" anchor="10" fill="2" />
+                        <component class="javax.swing.JButton">
+                          <param name="Name" class="java.lang.String">xml:new</param>
+                          <param name="Text" class="java.lang.String">Ajouter</param>
+                          <param name="ToolTipText" class="java.lang.String">Ajouter</param>
+                          <param name="Icon" class="javax.swing.ImageIcon">images/new_row.gif</param>
+                          <param name="ActionCommand" class="java.lang.String">Ajouter</param>
+                        </component>
+                      </wrapper>
+                      <wrapper>
+                        <constraint gridx="1" gridy="1" anchor="10" fill="2" />
+                        <component class="javax.swing.JButton">
+                          <param name="Name" class="java.lang.String">xml:delete</param>
+                          <param name="Text" class="java.lang.String">Supprimer</param>
+                          <param name="ToolTipText" class="java.lang.String">Supprimer</param>
+                          <param name="Icon" class="javax.swing.ImageIcon">images/delete_row.gif</param>
+                          <param name="ActionCommand" class="java.lang.String">Supprimer</param>
+                        </component>
+                      </wrapper>
+                      <wrapper>
+                        <constraint gridx="2" gridy="1" anchor="10" fill="2" />
+                        <component class="javax.swing.JButton">
+                          <param name="Name" class="java.lang.String">xml:left</param>
+                          <param name="ToolTipText" class="java.lang.String">Précédent</param>
+                          <param name="Icon" class="javax.swing.ImageIcon">images/left.gif</param>
+                        </component>
+                      </wrapper>
+                      <wrapper>
+                        <constraint gridx="3" gridy="1" anchor="10" fill="2" />
+                        <component class="javax.swing.JButton">
+                          <param name="Name" class="java.lang.String">xml:right</param>
+                          <param name="ToolTipText" class="java.lang.String">Suivant</param>
+                          <param name="Icon" class="javax.swing.ImageIcon">images/right.gif</param>
+                        </component>
+                      </wrapper>
+                    </grid>
+                  </content>
+                  <border type="TitledBorder">Lien vers des contacts</border>
+                </wrapper>
+                <wrapper tag="publications">
+                  <constraint gridx="0" gridy="3" gridwidth="2" weighty="0.0" anchor="18" fill="2" />
+                  <content>
+                    <grid dx="4" dy="2">
+                      <wrapper tag="publication">
+                        <constraint gridx="0" gridy="0" gridwidth="4" weightx="0.0" weighty="0.0" anchor="18" fill="2" />
+                        <component class="javax.swing.JTabbedPane" />
+                        <content>
+                          <tab index="0" title="1" mnemonic="0">
+                            <grid dx="1" dy="1">
+                              <wrapper tag="lien_publication">
+                                <constraint gridx="0" gridy="0" weighty="0.0" anchor="18" fill="2" />
+                                <component class="be.immedia.ui.player.Link" />
+                                <border type="BevelBorder">1</border>
+                              </wrapper>
+                            </grid>
+                          </tab>
+                        </content>
+                      </wrapper>
+                      <wrapper>
+                        <constraint gridx="0" gridy="1" anchor="10" fill="2" />
+                        <component class="javax.swing.JButton">
+                          <param name="Name" class="java.lang.String">xml:new</param>
+                          <param name="Text" class="java.lang.String">Ajouter</param>
+                          <param name="ToolTipText" class="java.lang.String">Ajouter</param>
+                          <param name="Icon" class="javax.swing.ImageIcon">images/new_row.gif</param>
+                          <param name="ActionCommand" class="java.lang.String">Ajouter</param>
+                        </component>
+                      </wrapper>
+                      <wrapper>
+                        <constraint gridx="1" gridy="1" anchor="10" fill="2" />
+                        <component class="javax.swing.JButton">
+                          <param name="Name" class="java.lang.String">xml:delete</param>
+                          <param name="Text" class="java.lang.String">Supprimer</param>
+                          <param name="ToolTipText" class="java.lang.String">Supprimer</param>
+                          <param name="Icon" class="javax.swing.ImageIcon">images/delete_row.gif</param>
+                          <param name="ActionCommand" class="java.lang.String">Supprimer</param>
+                        </component>
+                      </wrapper>
+                      <wrapper>
+                        <constraint gridx="2" gridy="1" anchor="10" fill="2" />
+                        <component class="javax.swing.JButton">
+                          <param name="Name" class="java.lang.String">xml:left</param>
+                          <param name="ToolTipText" class="java.lang.String">Précédent</param>
+                          <param name="Icon" class="javax.swing.ImageIcon">images/left.gif</param>
+                        </component>
+                      </wrapper>
+                      <wrapper>
+                        <constraint gridx="3" gridy="1" anchor="10" fill="2" />
+                        <component class="javax.swing.JButton">
+                          <param name="Name" class="java.lang.String">xml:right</param>
+                          <param name="ToolTipText" class="java.lang.String">Suivant</param>
+                          <param name="Icon" class="javax.swing.ImageIcon">images/right.gif</param>
+                        </component>
+                      </wrapper>
+                    </grid>
+                  </content>
+                  <border type="TitledBorder">Lien vers les publications proposé par l'éditeur</border>
+                </wrapper>
+                <wrapper>
+                  <constraint gridx="0" gridy="4" gridwidth="2" />
+                  <component class="javax.swing.JLabel" />
+                </wrapper>
+                <wrapper tag="titre">
+                  <constraint gridx="1" gridy="0" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JTextField">
+                    <param name="ToolTipText" class="java.lang.String">Titre</param>
+                    <param name="Columns" class="java.lang.Integer">30</param>
+                  </component>
+                </wrapper>
+                <wrapper tag="editeur_responsable">
+                  <constraint gridx="1" gridy="1" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JTextField">
+                    <param name="ToolTipText" class="java.lang.String">Editeur responsable</param>
+                    <param name="Columns" class="java.lang.Integer">30</param>
+                  </component>
+                </wrapper>
+                <wrapper>
+                  <constraint gridx="2" gridy="0" gridheight="5" />
+                  <component class="javax.swing.JLabel" />
+                </wrapper>
+              </grid>
+            </content>
+          </wrapper>
+        </grid>
+      </content>
+    </wrapper>
+  </grid>
+</form>
+

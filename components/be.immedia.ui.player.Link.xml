@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component label="Lien" class="be.immedia.ui.player.Link">
+	<text label="Nom" property="Name" />
+	<boolean label="Editable" property="Editable" />
+	<text label="Masque" property="Mask" />
+</component>

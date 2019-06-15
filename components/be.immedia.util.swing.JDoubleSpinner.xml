@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component label="Decimal" class="be.immedia.util.swing.JDoubleSpinner">
+	<text label="Nom" property="Name" />
+	<text label="Aide" property="ToolTipText" />
+	<double label="Minimum" property="Minimum" min="-1000000000000" max="1000000000000" />
+	<double label="Maximum" property="Maximum" min="-1000000000000" max="1000000000000" />
+	<double label="Valeur" property="DoubleValue" min="-1000000000000" max="1000000000000" />
+	<double label="Increment" property="StepSize" min="0.000000001" max="1000000000" />
+</component>

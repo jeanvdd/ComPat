@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+  <grid dx="4" dy="4">
+    <wrapper tag="Essai">
+      <constraint gridx="0" gridy="0" weightx="0.0" weighty="0.0" fill="0" />
+      <component class="javax.swing.JLabel">
+        <param name="Name" class="java.lang.String">Essai</param>
+        <param name="Text" class="java.lang.String">Essai</param>
+        <param name="DisplayedMnemonic" class="java.lang.Integer">65</param>
+      </component>
+    </wrapper>
+    <wrapper tag="Jean">
+      <constraint gridx="0" gridy="1" weightx="0.0" weighty="0.0" fill="0" />
+      <component class="javax.swing.JLabel">
+        <param name="Name" class="java.lang.String">Jean Vanderdonckt</param>
+        <param name="Text" class="java.lang.String">Jean Vanderdonckt</param>
+        <param name="ToolTipText" class="java.lang.String">Texte pour Jean Vanderdonckt</param>
+        <param name="DisplayedMnemonic" class="java.lang.Integer">84</param>
+      </component>
+    </wrapper>
+    <wrapper tag="Texte1">
+      <constraint gridx="1" gridy="0" fill="0" />
+      <component class="javax.swing.JTextField">
+        <param name="Columns" class="java.lang.Integer">14</param>
+      </component>
+    </wrapper>
+    <wrapper tag="Texte2">
+      <constraint gridx="1" gridy="1" weightx="0.0" weighty="0.0" fill="0" />
+      <component class="javax.swing.JTextField">
+        <param name="Columns" class="java.lang.Integer">9</param>
+      </component>
+    </wrapper>
+  </grid>
+</form>
+

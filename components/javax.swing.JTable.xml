@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component label="Table" class="javax.swing.JTable">
+	<text label="Nom" property="Name" />
+	<text label="Aide" property="ToolTipText" />
+	<choice label="Redimensionnement automatique" property="AutoResizeMode" type="integer">
+		<option value="0">AUCUN</option>
+		<option value="1">LA COLONNE SUIVANTE</option>
+		<option value="2">LES COLONES SUIVANTES</option>
+		<option value="3">DERNIERE COLONNE</option>
+		<option value="4">TOUTES LES COLONNES</option>
+	</choice>
+	<boolean label="Lignes horizontales visibles" property="ShowHorizontalLines" />
+	<boolean label="Lignes verticales visibles" property="ShowVerticalLines" />
+	<integer label="Hauteur de ligne" property="RowHeight" min="1" max="256" />
+	<integer label="Marge de ligne" property="RowMargin" min="1" max="256" />
+</component>

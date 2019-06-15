@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component label="Liste" class="javax.swing.JList">
+	<text label="Nom" property="Name" />
+	<text label="Aide" property="ToolTipText" />
+	<integer label="Hauteur de cellule" property="FixedCellHeight" min="-1" max="256" />
+	<integer label="Largeur de cellule" property="FixedCellWidth" min="-1" max="256" />
+	<integer label="Nombre de lignes visibles" property="VisibleRowCount" min="0" max="256" />
+	<choice label="Orientation" property="LayoutOrientation" type="integer">
+		<option value="0">VERTICALE</option>
+		<option value="1">VERTICALE AVEC RETOUR</option>
+		<option value="2">HORIZONTALE AVEC RETOUR</option>
+	</choice>
+</component>

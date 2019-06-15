@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component label="MM" class="be.immedia.ui.player.MM">
+	<text label="Nom" property="Name" />
+	<boolean label="Editable" property="Editable" />
+</component>

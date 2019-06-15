@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component label="Onglet">
+	<text label="Texte" property="Text">label</text>
+	<choice label="Mnémonique" property="DisplayedMnemonic" type="integer">
+		<option value="0" />
+		<option value="65">A</option>
+		<option value="66">B</option>
+		<option value="67">C</option>
+		<option value="68">D</option>
+		<option value="69">E</option>
+		<option value="70">F</option>
+		<option value="71">G</option>
+		<option value="72">H</option>
+		<option value="73">I</option>
+		<option value="74">J</option>
+		<option value="75">K</option>
+		<option value="76">L</option>
+		<option value="77">M</option>
+		<option value="78">N</option>
+		<option value="79">O</option>
+		<option value="80">P</option>
+		<option value="81">Q</option>
+		<option value="82">R</option>
+		<option value="83">S</option>
+		<option value="84">T</option>
+		<option value="85">U</option>
+		<option value="86">V</option>
+		<option value="87">W</option>
+		<option value="88">X</option>
+		<option value="89">Y</option>
+		<option value="90">Z</option>
+		<option value="48">0</option>
+		<option value="49">1</option>
+		<option value="50">2</option>
+		<option value="51">3</option>
+		<option value="52">4</option>
+		<option value="53">5</option>
+		<option value="54">6</option>
+		<option value="55">7</option>
+		<option value="56">8</option>
+		<option value="57">9</option>
+	</choice>
+	<icon label="Icône" property="Icon" /></component>

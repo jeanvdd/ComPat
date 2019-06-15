@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+  <grid dx="1" dy="1">
+    <wrapper>
+      <constraint gridx="0" gridy="0" />
+      <component class="javax.swing.JTabbedPane" />
+      <content>
+        <tab index="0" title="Informations générales" mnemonic="0">
+          <grid dx="1" dy="1">
+            <wrapper>
+              <constraint gridx="0" gridy="0" />
+              <content>
+                <grid dx="2" dy="12">
+                  <wrapper>
+                    <constraint gridx="0" gridy="0" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                    <component class="javax.swing.JLabel">
+                      <param name="Text" class="java.lang.String">Titre en Français : </param>
+                    </component>
+                  </wrapper>
+                  <wrapper>
+                    <constraint gridx="0" gridy="6" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                    <component class="javax.swing.JLabel">
+                      <param name="Text" class="java.lang.String">Date de dernière mise à jour : </param>
+                    </component>
+                  </wrapper>
+                  <wrapper tag="titre_fr">
+                    <constraint gridx="1" gridy="0" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                    <component class="javax.swing.JTextField">
+                      <param name="ToolTipText" class="java.lang.String">Titre en Français : </param>
+                      <param name="Columns" class="java.lang.Integer">30</param>
+                    </component>
+                  </wrapper>
+                  <wrapper tag="photo">
+                    <constraint gridx="1" gridy="5" weighty="2.0" />
+                    <component class="be.immedia.ui.player.MM" />
+                    <border type="BevelBorder">1</border>
+                  </wrapper>
+                  <wrapper tag="date_maj">
+                    <constraint gridx="1" gridy="6" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                    <component class="be.immedia.util.swing.JDateField" />
+                  </wrapper>
+                  <wrapper>
+                    <constraint gridx="0" gridy="1" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                    <component class="javax.swing.JLabel">
+                      <param name="Text" class="java.lang.String">Titre en Néerlandais : </param>
+                    </component>
+                  </wrapper>
+                  <wrapper>
+                    <constraint gridx="0" gridy="2" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                    <component class="javax.swing.JLabel">
+                      <param name="Text" class="java.lang.String">Titre en Anglais : </param>
+                    </component>
+                  </wrapper>
+                  <wrapper>
+                    <constraint gridx="0" gridy="3" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                    <component class="javax.swing.JLabel">
+                      <param name="Text" class="java.lang.String">Titre en Allemand : </param>
+                    </component>
+                  </wrapper>
+                  <wrapper>
+                    <constraint gridx="0" gridy="5" weightx="0.0" weighty="2.0" anchor="18" fill="0" />
+                    <component class="javax.swing.JLabel">
+                      <param name="Text" class="java.lang.String">Photo brochure : </param>
+                      <param name="VerticalAlignment" class="java.lang.Integer">1</param>
+                    </component>
+                  </wrapper>
+                  <wrapper>
+                    <constraint gridx="0" gridy="7" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                    <component class="javax.swing.JLabel">
+                      <param name="Text" class="java.lang.String">Organisme : </param>
+                    </component>
+                  </wrapper>
+                  <wrapper>
+                    <constraint gridx="0" gridy="8" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                    <component class="javax.swing.JLabel">
+                      <param name="Text" class="java.lang.String">Mail de commande : </param>
+                    </component>
+                  </wrapper>
+                  <wrapper>
+                    <constraint gridx="0" gridy="9" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                    <component class="javax.swing.JLabel">
+                      <param name="Text" class="java.lang.String">Version téléchargeable : </param>
+                    </component>
+                  </wrapper>
+                  <wrapper>
+                    <constraint gridx="0" gridy="10" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                    <component class="javax.swing.JLabel">
+                      <param name="Text" class="java.lang.String">Contact : </param>
+                    </component>
+                  </wrapper>
+                  <wrapper>
+                    <constraint gridx="0" gridy="11" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                    <component class="javax.swing.JLabel">
+                      <param name="Text" class="java.lang.String">Commandable : </param>
+                    </component>
+                  </wrapper>
+                  <wrapper tag="titre_nl">
+                    <constraint gridx="1" gridy="1" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                    <component class="javax.swing.JTextField">
+                      <param name="ToolTipText" class="java.lang.String">Titre en Néerlandais : </param>
+                      <param name="Columns" class="java.lang.Integer">30</param>
+                    </component>
+                  </wrapper>
+                  <wrapper tag="titre_en">
+                    <constraint gridx="1" gridy="2" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                    <component class="javax.swing.JTextField">
+                      <param name="ToolTipText" class="java.lang.String">Titre en Anglais : </param>
+                      <param name="Columns" class="java.lang.Integer">30</param>
+                    </component>
+                  </wrapper>
+                  <wrapper tag="titre_de">
+                    <constraint gridx="1" gridy="3" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                    <component class="javax.swing.JTextField">
+                      <param name="ToolTipText" class="java.lang.String">Titre en Allemand : </param>
+                      <param name="Columns" class="java.lang.Integer">30</param>
+                    </component>
+                  </wrapper>
+                  <wrapper tag="mail_commande" mask="^[_A-Za-z0-9-]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9-]+)*(\.[_A-Za-z0-9-]+)">
+                    <constraint gridx="1" gridy="8" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                    <component class="javax.swing.JTextField">
+                      <param name="ToolTipText" class="java.lang.String">Mail de commande</param>
+                      <param name="Columns" class="java.lang.Integer">30</param>
+                    </component>
+                  </wrapper>
+                  <wrapper tag="contact">
+                    <constraint gridx="1" gridy="10" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                    <component class="be.immedia.ui.player.Link" />
+                    <border type="BevelBorder">1</border>
+                  </wrapper>
+                  <wrapper tag="mt_principal" mandatory="true">
+                    <constraint gridx="1" gridy="7" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                    <component class="javax.swing.JComboBox">
+                      <param name="Name" class="java.lang.String">loader:MT</param>
+                      <param name="ToolTipText" class="java.lang.String">MT Principal</param>
+                    </component>
+                  </wrapper>
+                  <wrapper tag="commandable">
+                    <constraint gridx="1" gridy="11" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                    <component class="javax.swing.JCheckBox">
+                      <param name="ToolTipText" class="java.lang.String">Commandable</param>
+                    </component>
+                  </wrapper>
+                  <wrapper tag="telecharge">
+                    <constraint gridx="1" gridy="9" weighty="2.0" />
+                    <component class="be.immedia.ui.player.MM" />
+                    <border type="BevelBorder">1</border>
+                  </wrapper>
+                  <wrapper>
+                    <constraint gridx="0" gridy="4" weightx="0.0" weighty="2.0" anchor="18" fill="0" />
+                    <component class="javax.swing.JLabel">
+                      <param name="Text" class="java.lang.String">Imagette brochure : </param>
+                      <param name="VerticalAlignment" class="java.lang.Integer">1</param>
+                    </component>
+                  </wrapper>
+                  <wrapper tag="imagette">
+                    <constraint gridx="1" gridy="4" weighty="2.0" />
+                    <component class="be.immedia.ui.player.MM" />
+                    <border type="BevelBorder">1</border>
+                  </wrapper>
+                </grid>
+              </content>
+            </wrapper>
+          </grid>
+        </tab>
+        <tab index="1" title="Descriptifs" mnemonic="0">
+          <grid dx="1" dy="1">
+            <wrapper>
+              <constraint gridx="0" gridy="0" />
+              <content>
+                <grid dx="2" dy="4">
+                  <wrapper>
+                    <constraint gridx="1" gridy="0" />
+                    <component class="javax.swing.JScrollPane" />
+                    <content>
+                      <grid dx="1" dy="1">
+                        <wrapper tag="descriptif_fr">
+                          <constraint gridx="0" gridy="0" />
+                          <component class="be.immedia.xml.text.HtmlEditor" />
+                        </wrapper>
+                      </grid>
+                    </content>
+                  </wrapper>
+                  <wrapper>
+                    <constraint gridx="1" gridy="1" />
+                    <component class="javax.swing.JScrollPane" />
+                    <content>
+                      <grid dx="1" dy="1">
+                        <wrapper tag="descriptif_nl">
+                          <constraint gridx="0" gridy="0" />
+                          <component class="be.immedia.xml.text.HtmlEditor" />
+                        </wrapper>
+                      </grid>
+                    </content>
+                  </wrapper>
+                  <wrapper>
+                    <constraint gridx="1" gridy="2" />
+                    <component class="javax.swing.JScrollPane" />
+                    <content>
+                      <grid dx="1" dy="1">
+                        <wrapper tag="descriptif_en">
+                          <constraint gridx="0" gridy="0" />
+                          <component class="be.immedia.xml.text.HtmlEditor" />
+                        </wrapper>
+                      </grid>
+                    </content>
+                  </wrapper>
+                  <wrapper>
+                    <constraint gridx="1" gridy="3" />
+                    <component class="javax.swing.JScrollPane" />
+                    <content>
+                      <grid dx="1" dy="1">
+                        <wrapper tag="descriptif_de">
+                          <constraint gridx="0" gridy="0" />
+                          <component class="be.immedia.xml.text.HtmlEditor" />
+                        </wrapper>
+                      </grid>
+                    </content>
+                  </wrapper>
+                  <wrapper>
+                    <constraint gridx="0" gridy="0" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                    <component class="javax.swing.JLabel">
+                      <param name="Text" class="java.lang.String">Descriptif en Français : </param>
+                    </component>
+                  </wrapper>
+                  <wrapper>
+                    <constraint gridx="0" gridy="1" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                    <component class="javax.swing.JLabel">
+                      <param name="Text" class="java.lang.String">Descriptif en Néerlandais : </param>
+                    </component>
+                  </wrapper>
+                  <wrapper>
+                    <constraint gridx="0" gridy="2" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                    <component class="javax.swing.JLabel">
+                      <param name="Text" class="java.lang.String">Descriptif en Anglais : </param>
+                    </component>
+                  </wrapper>
+                  <wrapper>
+                    <constraint gridx="0" gridy="3" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                    <component class="javax.swing.JLabel">
+                      <param name="Text" class="java.lang.String">Descriptif en Allemand : </param>
+                    </component>
+                  </wrapper>
+                </grid>
+              </content>
+            </wrapper>
+          </grid>
+        </tab>
+      </content>
+    </wrapper>
+  </grid>
+</form>
+

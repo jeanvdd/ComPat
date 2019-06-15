@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component label="Zone de texte" class="javax.swing.JTextArea">
+	<text label="Nom" property="Name" />
+	<text label="Texte" property="Text" multi="true">texte</text>
+	<text label="Aide" property="ToolTipText" />
+	<boolean label="Editable" property="Editable" />
+	<integer label="Lignes" property="Rows" min="0" max="1024" />
+	<integer label="Colonnes" property="Columns" min="0" max="1024" />
+	<boolean label="Retour automatique" property="LineWrap">true</boolean>
+	<boolean label="Sur mots entiers" property="WrapStyleWord">true</boolean>
+</component>

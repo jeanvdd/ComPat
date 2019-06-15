@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component label="Barre de défilement" class="javax.swing.JScrollBar">
+	<text label="Nom" property="Name" />
+	<text label="Aide" property="ToolTipText" />
+	<choice label="Orientation" property="Orientation" type="integer">
+		<option value="0">HORIZONTALE</option>
+		<option value="1">VERTICALE</option>
+	</choice>
+
+	<integer label="Minimum" property="Minimum" min="0" max="1000000000" />
+	<integer label="Maximum" property="Maximum" min="0" max="1000000000" />
+	<integer label="Valeur" property="Value" min="0" max="1000000000" />
+	<integer label="Bloc" property="BlockIncrement" min="0" max="1000000000" />
+</component>

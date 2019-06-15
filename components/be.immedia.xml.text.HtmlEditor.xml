@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component label="Zone HTML" class="be.immedia.xml.text.HtmlEditor">
+	<text label="Nom" property="Name" />
+	<boolean label="Editable" property="Editable" />
+</component>

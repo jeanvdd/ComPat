@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component label="Fenêtre" class="javax.swing.JFrame">
+	<text label="Titre" property="Title" />
+	<image label="Icône" property="IconImage" />
+	<boolean label="Redimensionnable" property="Resizable" />
+	<choice label="Taille de départ" property="ExtendedState" type="integer">
+		<option value="0">NORMAL</option>
+		<option value="2">MAXIMIZED_HORIZ</option>
+		<option value="4">MAXIMIZED_VERT</option>
+		<option value="6">MAXIMIZED_BOTH</option>
+	</choice>
+</component>

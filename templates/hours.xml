@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+  <grid dx="4" dy="4">
+    <wrapper tag="dates_manif">
+      <constraint gridx="0" gridy="0" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+      <content>
+        <grid dx="4" dy="2">
+          <wrapper tag="date_manif">
+            <constraint gridx="0" gridy="0" gridwidth="4" weightx="0.0" weighty="0.0" anchor="18" fill="2" />
+            <component class="javax.swing.JTabbedPane" />
+            <content>
+              <tab index="0" title="1" mnemonic="0">
+                <grid dx="1" dy="1">
+                  <wrapper>
+                    <constraint gridx="0" gridy="0" weighty="0.0" anchor="18" fill="2" />
+                    <content>
+                      <grid dx="2" dy="3">
+                        <wrapper>
+                          <constraint gridx="0" gridy="0" anchor="18" fill="0" />
+                          <component class="javax.swing.JLabel">
+                            <param name="Text" class="java.lang.String">Beginning date (*) : </param>
+                            <param name="ToolTipText" class="java.lang.String">This is the date when the period begins</param>
+                          </component>
+                        </wrapper>
+                        <wrapper>
+                          <constraint gridx="0" gridy="1" anchor="18" fill="0" />
+                          <component class="javax.swing.JLabel">
+                            <param name="Text" class="java.lang.String">Finsishing date (*) : </param>
+                            <param name="ToolTipText" class="java.lang.String">This is the date when the period finishes</param>
+                          </component>
+                        </wrapper>
+                        <wrapper>
+                          <constraint gridx="0" gridy="2" anchor="18" fill="0" />
+                          <component class="javax.swing.JLabel">
+                            <param name="Text" class="java.lang.String">Hour : </param>
+                            <param name="ToolTipText" class="java.lang.String">This is the hour when the period finishes</param>
+                          </component>
+                        </wrapper>
+                        <wrapper tag="date_debut" mandatory="true">
+                          <constraint gridx="1" gridy="0" anchor="18" fill="0" />
+                          <component class="be.immedia.util.swing.JDateField">
+                            <param name="ToolTipText" class="java.lang.String">Date de début</param>
+                          </component>
+                        </wrapper>
+                        <wrapper tag="heure" mask="([\p{Digit}]{2}+([:])[\p{Digit}]{2}+(\s)+([&gt;;])+(\s)+[\p{Digit}]{2}+([:])[\p{Digit}]{2}+(\s)?+([-])?+(\s)?){0,}?">
+                          <constraint gridx="1" gridy="2" anchor="18" fill="0" />
+                          <component class="javax.swing.JTextField">
+                            <param name="ToolTipText" class="java.lang.String">Ex : 09:00 &gt; 18:00 – 09:00 ; 10:00</param>
+                            <param name="Columns" class="java.lang.Integer">20</param>
+                          </component>
+                        </wrapper>
+                        <wrapper tag="date_fin" mandatory="true">
+                          <constraint gridx="1" gridy="1" anchor="18" fill="0" />
+                          <component class="be.immedia.util.swing.JDateField">
+                            <param name="ToolTipText" class="java.lang.String">Date de fin</param>
+                          </component>
+                        </wrapper>
+                      </grid>
+                    </content>
+                  </wrapper>
+                </grid>
+              </tab>
+            </content>
+          </wrapper>
+          <wrapper>
+            <constraint gridx="0" gridy="1" anchor="10" fill="0" />
+            <component class="javax.swing.JButton">
+              <param name="Name" class="java.lang.String">xml:new</param>
+              <param name="Text" class="java.lang.String">Ajouter</param>
+              <param name="ToolTipText" class="java.lang.String">Ajouter</param>
+              <param name="Icon" class="javax.swing.ImageIcon">images/new_row.gif</param>
+              <param name="ActionCommand" class="java.lang.String">Ajouter</param>
+            </component>
+          </wrapper>
+          <wrapper>
+            <constraint gridx="1" gridy="1" anchor="10" fill="2" />
+            <component class="javax.swing.JButton">
+              <param name="Name" class="java.lang.String">xml:delete</param>
+              <param name="Text" class="java.lang.String">Supprimer</param>
+              <param name="ToolTipText" class="java.lang.String">Supprimer</param>
+              <param name="Icon" class="javax.swing.ImageIcon">images/delete_row.gif</param>
+              <param name="ActionCommand" class="java.lang.String">Supprimer</param>
+            </component>
+          </wrapper>
+          <wrapper>
+            <constraint gridx="2" gridy="1" anchor="10" fill="2" />
+            <component class="javax.swing.JButton">
+              <param name="Name" class="java.lang.String">xml:left</param>
+              <param name="ToolTipText" class="java.lang.String">Précédent</param>
+              <param name="Icon" class="javax.swing.ImageIcon">images/left.gif</param>
+            </component>
+          </wrapper>
+          <wrapper>
+            <constraint gridx="3" gridy="1" anchor="10" fill="2" />
+            <component class="javax.swing.JButton">
+              <param name="Name" class="java.lang.String">xml:right</param>
+              <param name="ToolTipText" class="java.lang.String">Suivant</param>
+              <param name="Icon" class="javax.swing.ImageIcon">images/right.gif</param>
+            </component>
+          </wrapper>
+        </grid>
+      </content>
+      <border type="TitledBorder">Dates</border>
+    </wrapper>
+  </grid>
+</form>
+

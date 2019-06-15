@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component label="Panneau-Table" class="be.immedia.awt.TableLayout"><text label="Nom" property="Name" bean="false" />
+	<integer label="Colonnes" property="Columns" min="1" max="128" />
+	<integer label="Espacement horizontal" property="Hgap" min="0" max="1024" />
+	<integer label="Espacement vertical" property="Vgap" min="0" max="1024" />
+	<boolean label="Minimiser horizontalement" property="Hpack" />
+	<boolean label="Minimiser verticalement" property="Vpack" />
+</component>

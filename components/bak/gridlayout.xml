@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component label="Panneau-Grille" class="java.awt.GridLayout">
+	<text label="Nom" property="Name" bean="false" />
+	<integer label="Lignes" property="Rows" min="0" max="1024" />
+	<integer label="Colonnes" property="Columns" min="0" max="1024" />
+	<integer label="Espacement horizontal" property="Hgap" min="0" max="1024" />
+	<integer label="Espacement vertical" property="Vgap" min="0" max="1024" />
+</component>

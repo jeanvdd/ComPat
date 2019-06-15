@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component label="Champ date" class="be.immedia.util.swing.JDateField">
+	<text label="Nom" property="Name" />
+	<text label="Aide" property="ToolTipText" />
+	<boolean label="Editable" property="Editable" />
+	<boolean label="Avec heures" property="WithTime" />
+	<date label="Minimum" property="Min" />
+	<date label="Maximum" property="Max" />
+	<date label="Valeur" property="Date" />
+
+	<choice label="Alignement horizontal" property="HorizontalAlignment" type="integer">
+		<option value="10">DEVANT</option>
+		<option value="11">DERRIERE</option>
+		<option value="2">GAUCHE</option>
+		<option value="0">CENTRE</option>
+		<option value="4">DROITE</option>
+	</choice>
+</component>

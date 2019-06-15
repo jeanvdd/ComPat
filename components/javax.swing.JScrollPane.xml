@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component label="Zone défilante" class="javax.swing.JScrollPane">
+	<text label="Nom" property="Name" />
+	<text label="Aide" property="ToolTipText" />
+	<choice label="Curseur horizontal" property="HorizontalScrollBarPolicy" type="integer">
+		<option value="30">QUAND NECESSAIRE</option>
+		<option value="31">JAMAIS</option>
+		<option value="32">TOUJOURS</option>
+	</choice>
+	<choice label="Curseur vertical" property="VerticalScrollBarPolicy" type="integer">
+		<option value="20">QUAND NECESSAIRE</option>
+		<option value="21">JAMAIS</option>
+		<option value="22">TOUJOURS</option>
+	</choice>
+</component>

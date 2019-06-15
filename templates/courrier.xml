@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+  <grid dx="1" dy="1">
+    <wrapper>
+      <constraint gridx="0" gridy="0" />
+      <component class="javax.swing.JScrollPane" />
+      <content>
+        <grid dx="1" dy="1">
+          <wrapper>
+            <constraint gridx="0" gridy="0" />
+            <content>
+              <grid dx="5" dy="16">
+                <wrapper>
+                  <constraint gridx="0" gridy="0" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JLabel">
+                    <param name="Text" class="java.lang.String">Dénomination (*) : </param>
+                  </component>
+                </wrapper>
+                <wrapper>
+                  <constraint gridx="0" gridy="1" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JLabel">
+                    <param name="Text" class="java.lang.String">Civilité : </param>
+                  </component>
+                </wrapper>
+                <wrapper>
+                  <constraint gridx="0" gridy="2" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JLabel">
+                    <param name="Text" class="java.lang.String">Nom courrier (*) : </param>
+                  </component>
+                </wrapper>
+                <wrapper>
+                  <constraint gridx="0" gridy="3" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JLabel">
+                    <param name="Text" class="java.lang.String">Prénom : </param>
+                  </component>
+                </wrapper>
+                <wrapper>
+                  <constraint gridx="0" gridy="4" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JLabel">
+                    <param name="Text" class="java.lang.String">Fonction : </param>
+                  </component>
+                </wrapper>
+                <wrapper>
+                  <constraint gridx="0" gridy="5" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JLabel">
+                    <param name="Text" class="java.lang.String">Civilité lettre (*) : </param>
+                  </component>
+                </wrapper>
+                <wrapper>
+                  <constraint gridx="0" gridy="6" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JLabel">
+                    <param name="Text" class="java.lang.String">Rue (*) : </param>
+                  </component>
+                </wrapper>
+                <wrapper>
+                  <constraint gridx="0" gridy="7" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JLabel">
+                    <param name="Text" class="java.lang.String">Code postal (*) : </param>
+                  </component>
+                </wrapper>
+                <wrapper>
+                  <constraint gridx="0" gridy="8" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JLabel">
+                    <param name="Text" class="java.lang.String">Localité (*) : </param>
+                  </component>
+                </wrapper>
+                <wrapper>
+                  <constraint gridx="0" gridy="9" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JLabel">
+                    <param name="Text" class="java.lang.String">Entité : </param>
+                  </component>
+                </wrapper>
+                <wrapper>
+                  <constraint gridx="0" gridy="10" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JLabel">
+                    <param name="Text" class="java.lang.String">Mail : </param>
+                  </component>
+                </wrapper>
+                <wrapper>
+                  <constraint gridx="0" gridy="11" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JLabel">
+                    <param name="Text" class="java.lang.String">Téléphone : </param>
+                  </component>
+                </wrapper>
+                <wrapper>
+                  <constraint gridx="0" gridy="12" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JLabel">
+                    <param name="Text" class="java.lang.String">GSM : </param>
+                  </component>
+                </wrapper>
+                <wrapper>
+                  <constraint gridx="0" gridy="13" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JLabel">
+                    <param name="Text" class="java.lang.String">Fax : </param>
+                  </component>
+                </wrapper>
+                <wrapper>
+                  <constraint gridx="0" gridy="14" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JLabel">
+                    <param name="Text" class="java.lang.String">Pays : </param>
+                  </component>
+                </wrapper>
+                <wrapper>
+                  <constraint gridx="0" gridy="15" gridwidth="4" />
+                  <component class="javax.swing.JLabel" />
+                </wrapper>
+                <wrapper tag="denomination" mask="[\p{Upper}\p{Digit}\s\p{Punct}°]*" mandatory="true">
+                  <constraint gridx="1" gridy="0" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JTextField">
+                    <param name="ToolTipText" class="java.lang.String">Dénomination</param>
+                    <param name="Columns" class="java.lang.Integer">30</param>
+                  </component>
+                </wrapper>
+                <wrapper tag="civilite">
+                  <constraint gridx="1" gridy="1" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JTextField">
+                    <param name="ToolTipText" class="java.lang.String">Civilité</param>
+                    <param name="Columns" class="java.lang.Integer">15</param>
+                  </component>
+                </wrapper>
+                <wrapper tag="nom" mandatory="true">
+                  <constraint gridx="1" gridy="2" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JTextField">
+                    <param name="ToolTipText" class="java.lang.String">Nom courrier</param>
+                    <param name="Columns" class="java.lang.Integer">30</param>
+                  </component>
+                </wrapper>
+                <wrapper tag="prenom">
+                  <constraint gridx="1" gridy="3" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JTextField">
+                    <param name="ToolTipText" class="java.lang.String">Prénom</param>
+                    <param name="Columns" class="java.lang.Integer">30</param>
+                  </component>
+                </wrapper>
+                <wrapper tag="fonction">
+                  <constraint gridx="1" gridy="4" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JTextField">
+                    <param name="ToolTipText" class="java.lang.String">Fonction</param>
+                    <param name="Columns" class="java.lang.Integer">30</param>
+                  </component>
+                </wrapper>
+                <wrapper tag="civilite_lettre" mandatory="true">
+                  <constraint gridx="1" gridy="5" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JTextField">
+                    <param name="ToolTipText" class="java.lang.String">Civilité</param>
+                    <param name="Columns" class="java.lang.Integer">15</param>
+                  </component>
+                </wrapper>
+                <wrapper tag="rue" mask="[\p{Upper}]{1}+[\p{Lower}]*+(\s)+[\p{Upper}\p{Digit}\p{Lower}\s\p{Punct}&amp;&amp;[^,]]*+(\,)+[\s\p{Digit}]*" mandatory="true">
+                  <constraint gridx="1" gridy="6" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JTextField">
+                    <param name="ToolTipText" class="java.lang.String">Rue .........., n°   </param>
+                    <param name="Columns" class="java.lang.Integer">30</param>
+                  </component>
+                </wrapper>
+                <wrapper tag="cp">
+                  <constraint gridx="1" gridy="7" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="be.immedia.util.swing.JIntegerSpinner">
+                    <param name="Minimum" class="java.lang.Integer">1</param>
+                    <param name="Maximum" class="java.lang.Integer">99000</param>
+                  </component>
+                </wrapper>
+                <wrapper tag="localite" mask="^[_A-Z\\.'-_]*" mandatory="true">
+                  <constraint gridx="1" gridy="8" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JTextField">
+                    <param name="ToolTipText" class="java.lang.String">Localite</param>
+                    <param name="Columns" class="java.lang.Integer">10</param>
+                  </component>
+                </wrapper>
+                <wrapper tag="entite">
+                  <constraint gridx="1" gridy="9" weightx="0.0" weighty="0.0" anchor="18" fill="3" />
+                  <component class="javax.swing.JComboBox">
+                    <param name="Name" class="java.lang.String">loader:entite</param>
+                    <param name="ToolTipText" class="java.lang.String">Entité</param>
+                  </component>
+                </wrapper>
+                <wrapper tag="mail" mask="^[_A-Za-z0-9-]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9-]+)*(\.[_A-Za-z0-9-]+)">
+                  <constraint gridx="1" gridy="10" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JTextField">
+                    <param name="ToolTipText" class="java.lang.String">Mail</param>
+                    <param name="Columns" class="java.lang.Integer">30</param>
+                  </component>
+                </wrapper>
+                <wrapper tag="tel_1" mask="^(\+)+[\p{Digit}]{2}+(\()+[\p{Digit}]{1}+(\))+[\p{Digit}]{2}+(\/)+[\p{Digit}]{2}+(\.)+[\p{Digit}]{2}+(\.)+[\p{Digit}]{2}">
+                  <constraint gridx="1" gridy="11" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JTextField">
+                    <param name="Text" class="java.lang.String">+32(0)</param>
+                    <param name="ToolTipText" class="java.lang.String">+32(0)**/**.**.** </param>
+                    <param name="Columns" class="java.lang.Integer">15</param>
+                  </component>
+                </wrapper>
+                <wrapper tag="gsm_1" mask="(\+)+[\p{Digit}]{2}+(\()+[\p{Digit}]{1}+(\))+[\p{Digit}]{3}+(\/)+[\p{Digit}]{2}+(\.)+[\p{Digit}]{2}+(\.)+[\p{Digit}]{2}">
+                  <constraint gridx="1" gridy="12" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JTextField">
+                    <param name="Text" class="java.lang.String">+32(0)4</param>
+                    <param name="ToolTipText" class="java.lang.String">+32(0)4**/**.**.** </param>
+                    <param name="Columns" class="java.lang.Integer">15</param>
+                  </component>
+                </wrapper>
+                <wrapper tag="fax" mask="^(\+)+[\p{Digit}]{2}+(\()+[\p{Digit}]{1}+(\))+[\p{Digit}]{2}+(\/)+[\p{Digit}]{2}+(\.)+[\p{Digit}]{2}+(\.)+[\p{Digit}]{2}">
+                  <constraint gridx="1" gridy="13" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JTextField">
+                    <param name="Text" class="java.lang.String">+32(0)</param>
+                    <param name="ToolTipText" class="java.lang.String">+32(0)**/**.**.** </param>
+                    <param name="Columns" class="java.lang.Integer">15</param>
+                  </component>
+                </wrapper>
+                <wrapper tag="pays">
+                  <constraint gridx="1" gridy="14" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JTextField">
+                    <param name="ToolTipText" class="java.lang.String">Pays</param>
+                    <param name="Columns" class="java.lang.Integer">3</param>
+                  </component>
+                </wrapper>
+                <wrapper>
+                  <constraint gridx="2" gridy="0" gridwidth="2" gridheight="11" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JLabel" />
+                </wrapper>
+                <wrapper>
+                  <constraint gridx="2" gridy="11" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JLabel">
+                    <param name="Text" class="java.lang.String">Téléphone 2 : </param>
+                  </component>
+                </wrapper>
+                <wrapper>
+                  <constraint gridx="2" gridy="12" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JLabel">
+                    <param name="Text" class="java.lang.String">GSM 2 : </param>
+                  </component>
+                </wrapper>
+                <wrapper tag="tel_2" mask="^(\+)+[\p{Digit}]{2}+(\()+[\p{Digit}]{1}+(\))+[\p{Digit}]{2}+(\/)+[\p{Digit}]{2}+(\.)+[\p{Digit}]{2}+(\.)+[\p{Digit}]{2}">
+                  <constraint gridx="3" gridy="11" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JTextField">
+                    <param name="Text" class="java.lang.String">+32(0)</param>
+                    <param name="ToolTipText" class="java.lang.String">+32(0)**/**.**.** </param>
+                    <param name="Columns" class="java.lang.Integer">15</param>
+                  </component>
+                </wrapper>
+                <wrapper tag="gsm_2" mask="(\+)+[\p{Digit}]{2}+(\()+[\p{Digit}]{1}+(\))+[\p{Digit}]{3}+(\/)+[\p{Digit}]{2}+(\.)+[\p{Digit}]{2}+(\.)+[\p{Digit}]{2}">
+                  <constraint gridx="3" gridy="12" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JTextField">
+                    <param name="Text" class="java.lang.String">+32(0)4</param>
+                    <param name="ToolTipText" class="java.lang.String">+32(0)4**/**.**.** </param>
+                    <param name="Columns" class="java.lang.Integer">15</param>
+                  </component>
+                </wrapper>
+                <wrapper>
+                  <constraint gridx="4" gridy="0" gridheight="16" />
+                  <component class="javax.swing.JLabel" />
+                </wrapper>
+                <wrapper>
+                  <constraint gridx="2" gridy="13" gridwidth="2" gridheight="2" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JLabel" />
+                </wrapper>
+              </grid>
+            </content>
+          </wrapper>
+        </grid>
+      </content>
+    </wrapper>
+  </grid>
+</form>
+

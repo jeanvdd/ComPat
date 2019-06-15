@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component label="Division" class="javax.swing.JSplitPane">
+	<text label="Nom" property="Name" />
+	<text label="Aide" property="ToolTipText" />
+	<choice label="Orientation" property="Orientation" type="integer">
+		<option value="0">HORIZONTALE</option>
+		<option value="1">VERTICALE</option>
+	</choice>
+	<boolean label="Touches sur diviseur" property="OneTouchExpandable" />
+	<boolean label="Rafraîchi en continu" property="ContinuousLayout" />
+	<integer label="Largeur du diviseur" property="DividerSize" min="1" max="128" />
+	<double label="Position initiale" property="DividerLocation" min="0" max="1">0.5</double>
+	<double label="Répartition de l'excédent" property="ResizeWeight" min="0" max="1" />
+</component>

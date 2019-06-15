@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+  <grid dx="1" dy="1">
+    <wrapper>
+      <constraint gridx="0" gridy="0" />
+      <component class="javax.swing.JScrollPane" />
+      <content>
+        <grid dx="1" dy="1">
+          <wrapper>
+            <constraint gridx="0" gridy="0" />
+            <content>
+              <grid dx="2" dy="13">
+                <wrapper>
+                  <constraint gridx="0" gridy="0" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JLabel">
+                    <param name="Text" class="java.lang.String">Nom en Français (*) :</param>
+                  </component>
+                </wrapper>
+                <wrapper>
+                  <constraint gridx="0" gridy="1" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JLabel">
+                    <param name="Text" class="java.lang.String">Nom en Néerlandais :</param>
+                  </component>
+                </wrapper>
+                <wrapper>
+                  <constraint gridx="0" gridy="2" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JLabel">
+                    <param name="Text" class="java.lang.String">Nom en Anglais :</param>
+                  </component>
+                </wrapper>
+                <wrapper>
+                  <constraint gridx="0" gridy="3" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JLabel">
+                    <param name="Text" class="java.lang.String">Nom en Allemand :</param>
+                  </component>
+                </wrapper>
+                <wrapper>
+                  <constraint gridx="0" gridy="4" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JLabel">
+                    <param name="Text" class="java.lang.String"> </param>
+                  </component>
+                </wrapper>
+                <wrapper>
+                  <constraint gridx="0" gridy="5" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JLabel">
+                    <param name="Text" class="java.lang.String"> </param>
+                  </component>
+                </wrapper>
+                <wrapper>
+                  <constraint gridx="0" gridy="6" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JLabel">
+                    <param name="Text" class="java.lang.String"> </param>
+                  </component>
+                </wrapper>
+                <wrapper>
+                  <constraint gridx="0" gridy="7" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JLabel">
+                    <param name="Text" class="java.lang.String"> </param>
+                  </component>
+                </wrapper>
+                <wrapper>
+                  <constraint gridx="0" gridy="9" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JLabel">
+                    <param name="Text" class="java.lang.String"> </param>
+                  </component>
+                </wrapper>
+                <wrapper>
+                  <constraint gridx="0" gridy="8" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JLabel">
+                    <param name="Text" class="java.lang.String"> </param>
+                  </component>
+                </wrapper>
+                <wrapper>
+                  <constraint gridx="0" gridy="10" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JLabel">
+                    <param name="Text" class="java.lang.String"> </param>
+                  </component>
+                </wrapper>
+                <wrapper>
+                  <constraint gridx="0" gridy="11" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JLabel">
+                    <param name="Text" class="java.lang.String"> </param>
+                  </component>
+                </wrapper>
+                <wrapper>
+                  <constraint gridx="0" gridy="12" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JLabel">
+                    <param name="Text" class="java.lang.String"> </param>
+                  </component>
+                </wrapper>
+                <wrapper tag="nom_fr" mandatory="true">
+                  <constraint gridx="1" gridy="0" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JTextField">
+                    <param name="ToolTipText" class="java.lang.String">Nom en Français</param>
+                    <param name="Columns" class="java.lang.Integer">20</param>
+                  </component>
+                </wrapper>
+                <wrapper tag="nom_nl">
+                  <constraint gridx="1" gridy="1" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JTextField">
+                    <param name="ToolTipText" class="java.lang.String">Nom en Néerlandais</param>
+                    <param name="Columns" class="java.lang.Integer">20</param>
+                  </component>
+                </wrapper>
+                <wrapper tag="nom_en">
+                  <constraint gridx="1" gridy="2" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JTextField">
+                    <param name="ToolTipText" class="java.lang.String">Nom en Anglais</param>
+                    <param name="Columns" class="java.lang.Integer">20</param>
+                  </component>
+                </wrapper>
+                <wrapper tag="nom_de">
+                  <constraint gridx="1" gridy="3" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JTextField">
+                    <param name="ToolTipText" class="java.lang.String">Nom en Allemand</param>
+                    <param name="Columns" class="java.lang.Integer">20</param>
+                  </component>
+                </wrapper>
+                <wrapper tag="critere">
+                  <constraint gridx="1" gridy="4" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JCheckBox">
+                    <param name="Text" class="java.lang.String">Critère de recherche</param>
+                    <param name="ToolTipText" class="java.lang.String">Critère de recherche</param>
+                    <param name="ActionCommand" class="java.lang.String">Critère de recherche</param>
+                  </component>
+                </wrapper>
+                <wrapper tag="crit_activite">
+                  <constraint gridx="1" gridy="5" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JCheckBox">
+                    <param name="Text" class="java.lang.String">Valable pour les activités</param>
+                    <param name="ToolTipText" class="java.lang.String">Valable pour les activités</param>
+                    <param name="ActionCommand" class="java.lang.String">Critère de recherche</param>
+                  </component>
+                </wrapper>
+                <wrapper tag="crit_hotel">
+                  <constraint gridx="1" gridy="6" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JCheckBox">
+                    <param name="Text" class="java.lang.String">Valable pour les hôtels</param>
+                    <param name="ToolTipText" class="java.lang.String">Valable pour les hôtels</param>
+                    <param name="ActionCommand" class="java.lang.String">Critère de recherche</param>
+                  </component>
+                </wrapper>
+                <wrapper tag="crit_restaurant">
+                  <constraint gridx="1" gridy="7" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JCheckBox">
+                    <param name="Text" class="java.lang.String">Valable pour les restaurants</param>
+                    <param name="ToolTipText" class="java.lang.String">Valable pour les restaurants</param>
+                    <param name="ActionCommand" class="java.lang.String">Critère de recherche</param>
+                  </component>
+                </wrapper>
+                <wrapper tag="crit_camping">
+                  <constraint gridx="1" gridy="8" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JCheckBox">
+                    <param name="Text" class="java.lang.String">Valable pour les campings</param>
+                    <param name="ToolTipText" class="java.lang.String">Valable pour les campings</param>
+                    <param name="ActionCommand" class="java.lang.String">Critère de recherche</param>
+                  </component>
+                </wrapper>
+                <wrapper tag="crit_gite">
+                  <constraint gridx="1" gridy="9" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JCheckBox">
+                    <param name="Text" class="java.lang.String">Valable pour les gites</param>
+                    <param name="ToolTipText" class="java.lang.String">Valable pour les gites</param>
+                    <param name="ActionCommand" class="java.lang.String">Critère de recherche</param>
+                  </component>
+                </wrapper>
+                <wrapper tag="crit_ch_hote">
+                  <constraint gridx="1" gridy="10" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JCheckBox">
+                    <param name="Text" class="java.lang.String">Valable pour les chambres d'hôtes</param>
+                    <param name="ToolTipText" class="java.lang.String">Valable pour les chambres d'hôtes</param>
+                    <param name="ActionCommand" class="java.lang.String">Critère de recherche</param>
+                  </component>
+                </wrapper>
+                <wrapper tag="crit_vvf">
+                  <constraint gridx="1" gridy="11" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JCheckBox">
+                    <param name="Text" class="java.lang.String">Valable pour les villages de vacance</param>
+                    <param name="ToolTipText" class="java.lang.String">Valable pour les villages de vacance</param>
+                    <param name="ActionCommand" class="java.lang.String">Critère de recherche</param>
+                  </component>
+                </wrapper>
+                <wrapper tag="icone">
+                  <constraint gridx="1" gridy="12" anchor="18" />
+                  <component class="be.immedia.ui.player.MM" />
+                  <border type="BevelBorder">1</border>
+                </wrapper>
+              </grid>
+            </content>
+          </wrapper>
+        </grid>
+      </content>
+    </wrapper>
+  </grid>
+</form>
+

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component label="Panneau-Bordure" class="java.awt.BorderLayout">
+	<text label="Nom" property="Name" bean="false" />
+	<integer label="Espacement horizontal" property="Hgap" min="0" max="1024" />
+	<integer label="Espacement vertical" property="Vgap" min="0" max="1024" />
+</component>

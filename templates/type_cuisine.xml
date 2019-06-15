@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+  <grid dx="1" dy="1">
+    <wrapper>
+      <constraint gridx="0" gridy="0" />
+      <component class="javax.swing.JScrollPane" />
+      <content>
+        <grid dx="1" dy="1">
+          <wrapper>
+            <constraint gridx="0" gridy="0" />
+            <content>
+              <grid dx="2" dy="4">
+                <wrapper>
+                  <constraint gridx="0" gridy="0" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JLabel">
+                    <param name="Text" class="java.lang.String">Type de cuisine en Français (*) :</param>
+                  </component>
+                </wrapper>
+                <wrapper>
+                  <constraint gridx="0" gridy="1" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JLabel">
+                    <param name="Text" class="java.lang.String">Type de cuisine en Néerlandais :</param>
+                  </component>
+                </wrapper>
+                <wrapper>
+                  <constraint gridx="0" gridy="2" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JLabel">
+                    <param name="Text" class="java.lang.String">Type de cuisine en Anglais :</param>
+                  </component>
+                </wrapper>
+                <wrapper>
+                  <constraint gridx="0" gridy="3" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JLabel">
+                    <param name="Text" class="java.lang.String">Type de cuisine en Allemand :</param>
+                  </component>
+                </wrapper>
+                <wrapper tag="nom_fr" mandatory="true">
+                  <constraint gridx="1" gridy="0" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JTextField">
+                    <param name="ToolTipText" class="java.lang.String">Nom en Français</param>
+                    <param name="Columns" class="java.lang.Integer">20</param>
+                  </component>
+                </wrapper>
+                <wrapper tag="nom_nl">
+                  <constraint gridx="1" gridy="1" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JTextField">
+                    <param name="ToolTipText" class="java.lang.String">Nom en Néerlandais</param>
+                    <param name="Columns" class="java.lang.Integer">20</param>
+                  </component>
+                </wrapper>
+                <wrapper tag="nom_en">
+                  <constraint gridx="1" gridy="2" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JTextField">
+                    <param name="ToolTipText" class="java.lang.String">Nom en Anglais</param>
+                    <param name="Columns" class="java.lang.Integer">20</param>
+                  </component>
+                </wrapper>
+                <wrapper tag="nom_de">
+                  <constraint gridx="1" gridy="3" weightx="0.0" weighty="0.0" anchor="18" fill="0" />
+                  <component class="javax.swing.JTextField">
+                    <param name="ToolTipText" class="java.lang.String">Nom en Allemand</param>
+                    <param name="Columns" class="java.lang.Integer">20</param>
+                  </component>
+                </wrapper>
+              </grid>
+            </content>
+          </wrapper>
+        </grid>
+      </content>
+    </wrapper>
+  </grid>
+</form>
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component label="Champ texte" class="javax.swing.JTextField">
+	<text label="Nom" property="Name" />
+	<text label="Texte" property="Text">texte</text>
+	<text label="Aide" property="ToolTipText" />
+	<boolean label="Editable" property="Editable" />
+	<integer label="Colonnes" property="Columns" min="0" max="1024" />
+
+	<choice label="Alignement horizontal" property="HorizontalAlignment" type="integer">
+		<option value="10">DEVANT</option>
+		<option value="11">DERRIERE</option>
+		<option value="2">GAUCHE</option>
+		<option value="0">CENTRE</option>
+		<option value="4">DROITE</option>
+	</choice>
+</component>

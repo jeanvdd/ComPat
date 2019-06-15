@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component label="Barre d'outils" class="javax.swing.JToolBar">
+	<text label="Nom" property="Name" />
+	<text label="Aide" property="ToolTipText" />
+	<choice label="Orientation" property="Orientation" type="integer">
+		<option value="0">HORIZONTALE</option>
+		<option value="1">VERTICALE</option>
+	</choice>
+	<boolean label="Flottant" property="Floatable" />
+</component>

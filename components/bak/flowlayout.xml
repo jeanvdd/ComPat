@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component label="Panneau-Flux" class="java.awt.FlowLayout">
+	<text label="Nom" property="Name" bean="false" />
+	<choice label="Alignement" property="Alignment" type="integer">
+		<option value="1">CENTRE</option>
+		<option value="0">GAUCHE</option>
+		<option value="2">DROITE</option>
+		<option value="3">DEVANT</option>
+		<option value="4">DERRIERE</option>
+	</choice>
+	<integer label="Espacement horizontal" property="Hgap" min="0" max="1024" />
+	<integer label="Espacement vertical" property="Vgap" min="0" max="1024" />
+</component>
